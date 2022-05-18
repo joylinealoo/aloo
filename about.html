@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content ='width=device-width, initial-scale=1.0'>
+        <title> Student Website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <section class="header-about">
+            <nav>
+                <a href="index.html"><img src='ku_logo.jpg'></a>
+                <div class="nav-links" id ='navLinks'>
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href='index.html'>HOME</a></li>
+                        <li><a href='about.html'>ABOUT</a></li>
+                        <li><a href='project.html'>COURSE</a></li>
+                        <li><a href='contact.html'>CONTACT</a></li>
+                    </ul>
+
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            
+
+        </section>
+
+        <!-- about page -->
+        <section class="project">
+            <h1>I am Joyline Aloo</h1>
+                <p>I am a kenyan lady, studying in Kenyata University,
+                    Taking a course in Records management  and Information Technology,
+                    School of Education, Department of Library and Information Science.
+                    The course is very intresting and motivating. Though there are still those theorey that holds,
+                    being it's IT related, I still believe in myself and however hard it might looks,
+                    Always trust the process and you will never miss  the reward.
+                    <br>
+                    The article below  will help drive away the fears you have in Technology
+
+                
+
+                </p>
+            <div class="project-row">
+                <div class="about-col">
+                    <h3>Emotional Obstacle in E-learning - The fear of technology</h3>
+                    <img src="fear3.webp">
+                    <a
+                     href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1046.8273&rep=rep1&type=pdf">
+                     <p> Click Here, to explore the article</p>
+                    </a>
+                    
+                </div>
+            </div>
+
+        </section>
+        <!-- project page -->
+       
+
+        <!-- footer -->
+        <section class="footer">
+            <h3> Reach Me</h3>
+            <p>Please use the media provided below to reach me.</p>
+            <div class="icons">
+                <a href=""> 
+                <i class="fa fa-facebook"></i>
+               </a>
+               <a href="">
+                <i class="fa fa-twitter"></i>
+               </a>
+               <a href="">
+                <i class="fa fa-linkedin"></i>
+               </a>
+               <a href="">
+                <i class="fa fa-instagram"></i>
+              </a>
+              <a href="mailto:joylinealoo@gmail.com">
+                <img src = "email.gif" alta = "staff portal" width ="50"
+                height ="30" border ="0" align="absbottom">
+              </a>
+              <a href="">
+                <i class="fa fa-phone"></i>
+                +254790002723
+             </a>
+
+            </div>
+
+        </section>
+        <!-- Java script for toggle menu -->
+        <script>
+            var navLinks=document.getElementById('navLinks');
+
+            function hidemenu(){
+                navLinks.style.right='-200px';
+            
+            }
+            function showmenu(){
+                navLinks.style.right='0';
+            }
+
+        </script>
+    </body>
+</html>
+
